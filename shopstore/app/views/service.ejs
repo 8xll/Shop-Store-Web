@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service | Gaming-Gear Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+        body {
+            font-family: 'Mitr', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        footer {
+            flex-shrink: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <%- include('navbar') %>
+    </header>
+
+    <div class="content container mt-5">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title fs-2 text-body-emphasis">ส่งด่วน 2 ชั่วโมง</h3>
+                <p class="card-text">มีค่าบริการเพิ่มเติม 500 บาท จัดส่งทุกวันตลอด 24 ชั่วโมง กรณีสินค้าล่าช้าเกิน 2 ชั่วโมง ทางร้านยินดีจัดส่งฟรี </p>
+                <a href="#" class="card-link">อ่านเพิ่มเติม</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title fs-2 text-body-emphasis">เงื่อนไขการรับประกันสินค้า</h3>
+                <p class="card-text">การรับประกันของทางร้านนับจากวันที่ซื้อสินค้าจาก Plugin IT เท่านั้น สินค้าซื้อแล้วไม่รับเปลื่ยนหรือคืนทุกกรณี ยกวเว้นเป็นไปตามเงื่อนไขของทางร้านสินค้าจากการใช้งานปกติสามารถเปลื่ยนตัวใหม่ได้ภายใน 7 วันรับจากวันที่ซื้อโดยมีกล่องและอุปกรณ์ครบถ้วน </p>
+                <a href="#" class="card-link">อ่านเพิ่มเติม</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title fs-2 text-body-emphasis">ความเป็นส่วนตัวของลูกค้า</h3>
+                <p class="card-text">เราจะอธิบายให้ท่านทราบถึงวิธีการที่เราเก็บรวบรวม ใช้หรือเปิดเผยข้อมูลส่วนบุคคลของท่าน เราอาจจะมีการเก็บข้อมูลโดยตรงจากท่านเพื่อใช้ในการพัฒนาบริการของ Plugin IT </p>
+                <a href="#" class="card-link">อ่านเพิ่มเติม</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    <%- include('footer') %>
+
+</body>
+
+</html>
